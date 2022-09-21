@@ -22,7 +22,7 @@ public class Adapter extends BaseAdapter {
     }
 
     public int getCount() {
-        return 0;
+        return arraylist.size();
     }
 
     @Override
